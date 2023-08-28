@@ -233,7 +233,7 @@ elif [ $parameter_counter -eq 4 -a $# -eq 1 ]; then
   getWeekNews 1
 elif [ $parameter_counter -eq 6 -a $# -eq 1 ]; then
   getBankHolidaysDays
-elif [ $parameter_counter -eq 7 -A $# -eq 1 ]; then
+elif [ $parameter_counter -eq 7 -a $# -eq 1 ]; then
   helpPanel
 else
   helpPanel
